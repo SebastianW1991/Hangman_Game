@@ -1,0 +1,129 @@
+
+$font:"Dancing Script", cursive;
+$font-weight:bold;
+$navy-blue: #000080;
+$brown: #662200;
+body {
+    font-family:$font;
+  text-align:center;
+    color:$navy-blue;
+    background-color:black;
+    animation: image 10s infinite alternate;
+    animation:image 10s infinite alternate;
+    animation:image 10s infinite alternate;
+
+@keyframes image{
+    0%{
+background-color:#EFEBE9;
+}
+25%{
+    background-color:#D7CCC8;
+}
+50%{
+    background-color:#BCAAA4;
+}
+75%{
+
+    background-color:#A1887F;
+}
+100%{
+    background-color:#8D6E63;
+    }
+  }  
+
+
+  #title{
+    font-weight:$font-weight;
+    color:$navy-blue;
+  }
+}
+
+ .letter {
+    display: inline-block;
+    list-style: none;
+    width: 20px;
+    margin: 0 5px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    display: inline-block;
+    color:transparent;
+   
+}
+.current-word {
+    list-style: none;
+}
+.output {
+    opacity: 0;
+    transition: opacity 1s ease;
+  font-weight:$font-weight
+}
+.correct {
+    background-color: green;
+    transition: all 1s ease;
+    color:white;
+  font-weight:$font-weight
+  
+}
+.error {
+    color: red;
+    opacity: 1;
+  font-weight:$font-weight
+}
+.warning {
+    color: red;
+    opacity: 1;
+  font-weight:$font-weight;
+}
+.win {
+    color: green;
+    opacity: 1;
+}
+#guess{
+  font-family:$font;
+  font-weight:$font-weight
+}
+#restart{
+  font-family:$font;
+  font-weight:$font-weight;
+  color:red;
+}
+#letter{
+  font-family:$font;
+  font-weight:$font-weight;
+}
+//Modal
+#ModalRules {
+    display: none; // Hidden 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color:#D7CCC8; 
+.modal-content {
+  h2{text-align:center;
+  color:$navy-blue;}
+    background-color:#A1887F ;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+    text-align:left;
+    color:$navy-blue;
+}
+.close {
+    color: $brown;
+    float: right;
+    font-size:32px;
+}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  };}
+#btnRules{;
+  color: $navy-blue;
+  font-family:$font}

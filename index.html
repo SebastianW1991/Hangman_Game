@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>A Pen by  Sebastian</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <head> <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet"></head>
+<div id="title"><h1>'Hangman' Game</h1>
+
+  <p>Ancient VIPs Edition</p></div>
+<form id="hangman">
+    <input type="text" maxlength="1" minlength="1" name="letter" id="letter" placeholder="Guess a letter" />
+    <input id="guess" name="guess" type="submit" value="Guess" />
+    <button id="restart" name="restart" type="button">Restart</button>
+</form>
+<ul id="letters"></ul>
+<p id="wordPlace"></p>
+<p id="output" class="output"></p>
+<button id="btnRules">Rules</button>
+      <div id="ModalRules" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Rules</h2>
+          <ul>
+            <li>You have 6 chances.</li>
+            <li>You need to guess ancient king, queen or politician name.</li>
+            <li>You can use either CAPITAL LETTERS or small ones. </li>
+            
+          </ul>
+        </div>
+</div>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
